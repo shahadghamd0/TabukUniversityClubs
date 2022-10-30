@@ -1,0 +1,320 @@
+<html>
+<head></head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+
+}
+
+body{
+background-color:#e3f2fd;
+font-family:"Tajawal";
+ text-align: center;
+}
+
+.nav-contalner{
+background: rgba(0,99,129,0.5);
+color:white;
+}
+nav{
+width:90%;
+margin:0 auto;
+max-width:1366px;
+min-height:10vh;
+display:flex;
+justify-content:space-between;
+align-items:center;
+font-size:10px;
+}
+nav.arm{
+font-weight:bold;
+color:white;
+flex:2;
+}
+nav ul{
+
+list-style-type:none;
+display:flex;
+justify-content:space-between;
+flex:1;
+
+}
+nav ul li a{
+display:block;
+padding:0 2rem;
+color:white;
+text-decoration:none;
+
+}
+nav ul li a:hover{color:blue;}
+
+.hero-section{
+height:60%;
+
+
+}
+.content{
+width:90%;
+margin:0 auto;
+max-width:1366px;
+display:flex;
+justify-content:center;
+flex-direction:column;
+align-items:fles-start;
+height:90%;
+
+
+}
+h1 span{ color:#01579b;}
+h2{color:#01579b;}
+
+
+
+.img2 {
+  float: left;
+}
+
+.container {
+    margin: 20% 4%;
+    float: left;
+    background-color: lightgray;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+	float:center;
+}
+
+.card {
+    color: black;
+    width: 90%;
+    margin: 20% 5%;
+    height: 80%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+display:block;
+float:center;
+}
+
+
+
+
+
+
+img{
+ float: right;
+
+}
+
+
+
+
+.slider{
+position:relative;
+width:100%;
+overflow:hidden;
+
+}
+.images{
+display:flex;
+width:50%;
+
+}
+.images img{
+height:400px;
+width:100%;
+transition:all 0.15s ease;
+
+}
+.images input{
+display:none;
+}
+.dots{
+display:flex;
+justify-content:center;
+margin:5px;
+}
+.dots label{
+height:20px;
+width:20px;
+border-radius:50%;
+border:solid #fff 3px;
+cursor:pointer;
+transition:all 0.15s ease;
+margin:5px;
+}
+.dots label:hover{background:#fff;}
+#img1:checked~.m1{margin-left:-10%;}
+#img2:checked~.m2{margin-left:-30%;}
+#img3:checked~.m3{margin-left:-60%;}
+
+.cuont{background:white;
+padding:25px;
+border-radius:10px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+
+
+
+<body>
+<div class="contalner">
+<div class="nav-contalner">
+<nav>
+<h4 class="arm" style="font-size:20px ">نادي العمل التطوعي</h4>
+<ul>
+
+<li><a href="C:\Users\asus\Desktop\project\TabukUniversityClubs.html">الصفحة الرئيسية</a></li>
+<li><a href="https://www.ut.edu.sa/ar/Deanship/dar/Pages/default.aspx">للتواصل</a></li>
+</ul>
+</nav>
+
+</div>
+<img src="nad.jpeg" alt="wep" width="300" height="300">
+<div class="hero-section">
+<div class="content">
+<h1 style="font-size:100px"><span>نادي العمل التطوعي</span>
+<h2 style="color:black">الاستثمار الامثل لاوقات الطلاب وتقويم سلوكهم وحفز طاقاتهم وصقل مهاراتهم وتعزيز ونشر ثقافة العمل التطوعي</h2>
+</div>
+</div>
+
+<div class="container" id="cor1" >
+<div class="card"id="card1">
+  <img class="img2" src="13a.jpeg" alt="web" width="50" height="100">
+<h2>فكرة النادي </h2>
+<p>إحياء روح العمل التطوعي من اجل تحقيق الخير,والمحافظة على الممتلكات العامة </p>
+
+
+</div></div>
+
+<div class="container"id="cor2">
+<div class="card"id="card2">
+<h2>رؤية النادي</h2>
+<img class="img2" src="12s.jpeg" alt="pn" width="100" height="50"><p>رؤية النادي :تقديم المساهمات  ذات الأثر الايجابي للمجتمع ونشر ثقافة المسؤولية الاجتماعية وتحقيق التنمية المستدامة</p>
+
+</div></div>
+
+
+<div class="container" id="cor3">
+<div class="card"id="card3">
+<h2>الاهداف</h2>
+<img class="img2" src="12f.jpeg" alt="pn" width="50"height="100"><br>
+<p>&#9689توعية افراد المجتمع بأهمية المسؤولية المجتمعية<br><br>
+&#9689تحفيز الطلبة والعمل على تنفيذ وتطوير افكارهم <br><br>
+&#9689تقديم المبادرات التطوعية التي تخدم المجتمع<br><br></p>
+
+</div></div>
+<section>
+<div class="codtion">
+
+
+<div class="slider">
+<h2 style="font-size:50px;color:#37474f">صفحة الاعلانات</h2>
+<div class="images">
+
+<input type="radio" name="slide" id="img1" checked>
+<input type="radio" name="slide" id="img2">
+<input type="radio" name="slide" id="img3">
+
+<img src="12dora.jpeg" class="m1"alt=""/>
+
+
+<img src="13dora.jpeg" class ="m2"alt=""/>
+<img src="14dora.jpeg" class ="m3"alt=""/>
+
+</div>
+<div class="dots">
+
+
+<label for="img1"></label>
+<label for="img2"></label>
+<label for="img3"></label>
+
+</div>
+
+</div>
+</div>
+</section>
+<section class="cuont">
+<h2>التسجيل بالنادي</h2>
+<form>
+ <label for="username">إسم المستخدم</label>
+  <input type="text" id="username" name="username">
+ <br><br>
+  <label for="password">كلمة المرور</label>
+  <input type="password" id="password" name="password">
+   <br><br>
+   <input type="submit" value="دخول">
+        </form>
+</section>
+</div>
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
